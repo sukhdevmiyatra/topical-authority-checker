@@ -11,12 +11,12 @@ import math
 # ==========================================
 
 st.set_page_config(
-    page_title="Topic Authority Checker - SEO Market Share Calculator",
+    page_title="Topical Authority Checker - SEO Market Share Calculator",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'About': "Topic Authority Engine - Calculate organic market share and traffic potential using DataForSEO API."
+        'About': "Topical Authority Checker - Calculate organic market share and traffic potential using DataForSEO API."
     }
 )
 
@@ -304,7 +304,7 @@ def fetch_serp_batch(keywords, location, language, depth, auth):
 
 def main():
     # --- H1 FIRST (for proper HTML hierarchy) ---
-    st.title("Topic Authority Score Checker - SEO Market Share Calculator")
+    st.title("Topical Authority Checker - SEO Market Share Calculator")
     
     # --- SIDEBAR: Authentication ---
     with st.sidebar:
